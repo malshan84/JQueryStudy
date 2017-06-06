@@ -1,0 +1,21 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#hide").click(function(){
+                    $("p").hide();
+                })
+                $("#show").click(function(){
+                    $("p").show();
+                })
+            });
+        </script>
+    </head>
+    <body>
+       <p>If you click on the "Hide" button, I will dissappear.</p>
+       <button id="hide">Hide</button>
+       <button id="show">Show</button>
+   </body>
+</html>
